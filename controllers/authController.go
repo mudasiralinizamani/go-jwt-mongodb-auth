@@ -8,9 +8,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
-	"github.com/mudasiralinizamani/ums-api/database"
-	"github.com/mudasiralinizamani/ums-api/helpers"
-	"github.com/mudasiralinizamani/ums-api/models"
+	"github.com/mudasiralinizamani/go-jwt-mongodb-auth/database"
+	"github.com/mudasiralinizamani/go-jwt-mongodb-auth/helpers"
+	"github.com/mudasiralinizamani/go-jwt-mongodb-auth/models"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"

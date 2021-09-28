@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-	"github.com/mudasiralinizamani/ums-api/routers"
+	"github.com/mudasiralinizamani/go-jwt-mongodb-auth/routers"
 )
 
 func main() {

@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/mudasiralinizamani/ums-api/helpers"
-	"github.com/mudasiralinizamani/ums-api/models"
+	"github.com/mudasiralinizamani/go-jwt-mongodb-auth/helpers"
+	"github.com/mudasiralinizamani/go-jwt-mongodb-auth/models"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 )

@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/mudasiralinizamani/ums-api/helpers"
+	"github.com/mudasiralinizamani/go-jwt-mongodb-auth/helpers"
 )
 
 func Authenticate() gin.HandlerFunc {
