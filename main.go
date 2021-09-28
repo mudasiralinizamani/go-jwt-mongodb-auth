@@ -18,6 +18,7 @@ func main() {
 	app.Use(gin.Logger())
 
 	// Adding Router
+	routers.AuthRouter(app)
 	routers.UserRouter(app)
 
 	app.Run(":" + port)
